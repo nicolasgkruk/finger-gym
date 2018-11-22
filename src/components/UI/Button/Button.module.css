@@ -1,0 +1,67 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Success:disabled {
+    color: gray;
+    cursor: not-allowed;   
+}
+
+.Danger {
+    color: #944317;
+}
+
+.LogWorkout {
+    font-size: 2rem;
+    color: #e12301;
+    background-color: #fffa8a;
+    border-radius: 10%;
+}
+
+.LogWorkout:disabled {
+    color: gray;
+    cursor: not-allowed;
+    
+}
+
+.LogWorkout:disabled:hover {
+    color: gray;
+    cursor: not-allowed;
+    background-color: #fffa8a;
+}
+
+.LogWorkout:hover {
+    color: #fffa8a;
+    background-color: #e12301;
+}
+
+.PlusAndLess {
+    font-size: 2.5rem;
+    color: #e12301;
+    background-color: #fffa8a;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.PlusAndLess:hover {
+    color: #fffa8a;
+    background-color: #e12301;
+}
